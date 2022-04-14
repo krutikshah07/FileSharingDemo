@@ -1,0 +1,77 @@
+:root {
+    --main-bg-color: #DE354C;
+    --light-blue: #03a9f4;
+    --dark-blue: #028bca;
+  }
+
+  body {
+    font-family: system-ui;
+    background: var(--main-bg-color);
+    height: 98vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+  }
+section.download {
+    background: #fff;
+    width: 430px;
+    max-width: 90%;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px 0px #00000017;
+    padding: 2rem;
+    text-align: center;
+    background-color:rgb(154, 255, 71);
+    
+}
+.download__icon {
+    height: 8rem;
+}
+.download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.send-btn-container a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 15px;
+    background: var(--light-blue);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+
+  .button_slide {
+    color:black;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  .send-btn-container a:hover {
+      background: var(--dark-blue);
+  }
